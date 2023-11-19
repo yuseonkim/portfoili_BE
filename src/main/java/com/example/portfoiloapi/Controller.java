@@ -16,6 +16,7 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
+@CrossOrigin(origins = "*")
 public class Controller {
     private final CreateAccessToken createAccessToken;
     private final Service service;
