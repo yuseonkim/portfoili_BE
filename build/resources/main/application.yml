@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://sql.freedb.tech:3306/freedb_portfolioYS
+    username: freedb_yusun
+    password: E2kAJ2$B6rthHnf
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    defer-datasource-initialization: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+
