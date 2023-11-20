@@ -14,9 +14,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
+@CrossOrigin(origins = "*")
 @RestController
 @RequiredArgsConstructor
-@CrossOrigin(origins = "*")
 public class Controller {
     private final CreateAccessToken createAccessToken;
     private final Service service;
