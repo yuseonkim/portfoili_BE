@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
 @CrossOrigin(
-        origins = "*",
+        originPatterns = "*",
         allowedHeaders = {"Authorization", "Cache-Control", "Content-Type"},
         exposedHeaders = "Authorization",
         methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE},
