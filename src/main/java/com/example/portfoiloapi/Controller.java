@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "*", allowedHeaders = "Authorization")
 @RestController
 @RequiredArgsConstructor
 public class Controller {
